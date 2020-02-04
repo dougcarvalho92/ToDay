@@ -12,7 +12,7 @@ Entrega da prova será feita pelo git, você pode fazer um fork deste repositór
 
 Desenvoler uma Web API seguindo os padrões REST e utilizando preferencialmente .NET CORE (C#).
 
-Utilizar o padrão de arquitetura DDD, interessante também utilizar TDD (opcional).
+Preferencialmente utilizar o padrão de arquitetura DDD e interessante também utilizar TDD (opcional).
 
 O banco de dados de sua aplicação poderá ser em memória, caso opte por rodar em um banco de dados físico, utilize Code First gerando Migrations do EF.
 
