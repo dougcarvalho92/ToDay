@@ -4,25 +4,22 @@
 
 Desenvoler uma aplicação de TODO list.
 
-Crie um README em seu repositório explicando como você construiu sua aplicação, quais tecnologias foram utilizadas,
-quais foram as dificuldades, porque escolheu uma determinada biblioteca...
+Crie um README em seu repositório explicando como você construiu sua aplicação, quais tecnologias foram utilizadas, quais foram as dificuldades, porque escolheu uma determinada biblioteca...
 
 Entrega da prova será feita pelo git, você pode fazer um fork deste repositório e nos enviar o link.
 
 ### BackEnd
 
-Desenvoler uma Web API seguindo os padrões REST e utilizando .NET CORE (C#).
+Desenvoler uma Web API seguindo os padrões REST e utilizando preferencialmente .NET CORE (C#).
 
 Utilizar o padrão de arquitetura DDD, interessante também utilizar TDD (opcional).
 
-O banco de dados de sua aplicação poderá ser em memória, caso opte por rodar em um 
-
-banco de dados físico, utilize Code First gerando Migrations do EF.
+O banco de dados de sua aplicação poderá ser em memória, caso opte por rodar em um banco de dados físico, utilize Code First gerando Migrations do EF.
 
 
 ### FrontEnd
 
-Desenvolver em Angular utilizando algum framework de preferência [Material](https://material.angular.io/)
+Desenvolver preferencialmente em Angular utilizando algum framework de preferência [Material](https://material.angular.io/)
 
 
 ## Funcionalidades
@@ -79,5 +76,6 @@ Desenvolver em Angular utilizando algum framework de preferência [Material](htt
     listaId:number,
     nome:string,
     concluida:boolean,
+    usuarioId:number
 }
 ```
