@@ -19,7 +19,7 @@ O banco de dados de sua aplicação poderá ser em memória, caso opte por rodar
 
 ### FrontEnd
 
-Desenvolver preferencialmente em Angular utilizando algum framework de preferência [Material](https://material.angular.io/)
+Desenvolver preferencialmente em Angular utilizando algum framework de preferência [Material](https://material.angular.io/) ou ReactJS
 
 
 ## Funcionalidades
