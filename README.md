@@ -10,7 +10,7 @@ Entrega da prova será feita pelo git, você pode fazer um fork deste repositór
 
 ### BackEnd
 
-Desenvoler uma Web API seguindo os padrões REST e utilizando preferencialmente .NET CORE (C#).
+Desenvoler uma Web API seguindo os padrões REST e utilizando preferencialmente .NET CORE (C#) ou NodeJS.
 
 Preferencialmente utilizar o padrão de arquitetura DDD e interessante também utilizar TDD (opcional).
 
