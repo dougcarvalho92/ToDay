@@ -11,7 +11,7 @@ import {
   Input,
   TextField,
   DialogContent,
-  DialogActions
+  DialogActions,
 } from "@material-ui/core";
 import { Container } from "./styles";
 export default function CategoriesDialog(props) {
@@ -84,7 +84,6 @@ export default function CategoriesDialog(props) {
             <List>
               {categorias.map((categoria) => (
                 <ListItem key={categoria.id}>
-                  
                   <ListItemText primary={categoria.nome} />
                 </ListItem>
               ))}

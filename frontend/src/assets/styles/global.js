@@ -68,4 +68,12 @@ form .default-button:hover{
   width:100%;
   margin-bottom:10px !important;
 }
+.dialog-categorias .MuiDialogContent-root,.dialog-categorias .MuiSelect-select.MuiSelect-select,.dialog-categorias  .MuiFormControl-root{
+    width: 100%;
+
+}
+.dialog-title h2{
+  display: flex;
+  justify-content:space-between
+}
 `;

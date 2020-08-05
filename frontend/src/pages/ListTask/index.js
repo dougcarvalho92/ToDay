@@ -163,7 +163,8 @@ function ListTask(props) {
           }}
           onChange={(item) => setTextFilter(item.target.value)}
         />
-        <CategoriesDialog />
+        
+
       </HeaderFilter>
       <Container>
         {allList.map((list) =>
