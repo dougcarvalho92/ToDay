@@ -1,81 +1,41 @@
-# Prova da Equipe .NET
+# Today - App de TodoList
 
-## Requisitos
+#### Resumo
 
-Desenvoler uma aplicação de TODO list.
+- Back-end
+- Front-end
+- Rodar Aplicação
+# 1 - Back-end
+  - Back-end feito em [NodeJs]().
+##### 1.1 - Tecnologias Usadas
+- Servidor feito em [Express](https://expressjs.com/pt-br/)
+- Banco de dados gerenciado pelo Query Builder [KnexJs](http://knexjs.org/)
+- Banco de dados SQLite
+- Validações de parametros das rotas feito com [Joi(Celebrate)](https://github.com/arb/celebrate)
+- Testes feitos com [Jest](https://jestjs.io/docs/en/api)
+- Requisições dos Testes e Validações feitas com o [Supertest](https://github.com/visionmedia/supertest)
+# 2 - Front-end
+  - Front-end feito em [Reactjs]().
+##### 1.1 - Tecnologias Usadas
+- Components usados do [Material Design UI](https://material-ui.com/)
+- Requisições feitas pelo [Axios](https://github.com/axios/axios)
+# 3 - Rodar Aplicação
+-  Faça o clone desta aplicação no seu computador
+    
 
-Crie um README em seu repositório explicando como você construiu sua aplicação, quais tecnologias foram utilizadas, quais foram as dificuldades, porque escolheu uma determinada biblioteca...
-
-Entrega da prova será feita pelo git, você pode fazer um fork deste repositório e nos enviar o link.
-
-### BackEnd
-
-Desenvoler uma Web API seguindo os padrões REST e utilizando preferencialmente .NET CORE (C#) ou NodeJS.
-
-Preferencialmente utilizar o padrão de arquitetura DDD e interessante também utilizar TDD (opcional).
-
-O banco de dados de sua aplicação poderá ser em memória, caso opte por rodar em um banco de dados físico, utilize Code First gerando Migrations do EF.
-
-
-### FrontEnd
-
-Desenvolver preferencialmente em Angular utilizando algum framework de preferência [Material](https://material.angular.io/) ou ReactJS
-
-
-## Funcionalidades
-
-### Usuário
-
-- Login
-- Cadastro
-
-### Lista de tarefas
-
-- Filtrar por Nome e Categoria
-- Criar lista
-- Marcar como concluída
-- Editar
-- Excluir
-
-### Tarefa
-
-- Adicionar
-- Concluir
-- Editar
-- Excluir
+    git clone https://gitlab.com/dougcarvalho92/equipe-dotnet.git
+- Acesse as pastas backend e frontend e execute o comando abaixo no terminal:
 
 
-## Modelo de dados
+     npm install
+- Assim que terminar o download das dependência, execute o comando abaixo nas mesmas pastas:
+    
 
-```js
-// usuario
-{
-    id:number,
-    nome:string,
-    email:string,
-    senha:string,
-}
+     npm start
 
-// categoria
-{
-    id:number,
-    nome:string,
-}
 
-// lista
-{
-    id:number,
-    nome:string,
-    categoriaId:number,
-    concluida:boolean,
-}
+#### Feedback
+Foram escolhidas como ferramentas para o desenvolimento desta aplicação o node e react por se tratar das tecnologias que acompanho e estudo hoje. Também escolhi o knexjs para facilitar na criação e integração com o sistema e pela facilidade de mudança de banco de dados.
+As dificuldades encontradas no desenvolvimento foram a integração entre componentes filhos entre si e a utilização correta do useEffect do react que acabou causando looping infinitos e determinadas hora.
 
-// tarefa
-{
-    id:number,
-    listaId:number,
-    nome:string,
-    concluida:boolean,
-    usuarioId:number
-}
-```
+ Feito por Douglas Carvalho
