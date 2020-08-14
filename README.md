@@ -34,8 +34,4 @@
      npm start
 
 
-#### Feedback
-Foram escolhidas como ferramentas para o desenvolimento desta aplicação o node e react por se tratar das tecnologias que acompanho e estudo hoje. Também escolhi o knexjs para facilitar na criação e integração com o sistema e pela facilidade de mudança de banco de dados.
-As dificuldades encontradas no desenvolvimento foram a integração entre componentes filhos entre si e a utilização correta do useEffect do react que acabou causando looping infinitos e determinadas hora.
-
  Feito por Douglas Carvalho
