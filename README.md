@@ -23,7 +23,7 @@
 -  Faça o clone desta aplicação no seu computador
     
 
-    git clone https://gitlab.com/dougcarvalho92/equipe-dotnet.git
+   `` git clone https://gitlab.com/dougcarvalho92/equipe-dotnet.git``
 - Acesse as pastas backend e frontend e execute o comando abaixo no terminal:
 
 
